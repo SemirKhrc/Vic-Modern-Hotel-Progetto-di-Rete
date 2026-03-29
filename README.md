@@ -120,7 +120,7 @@ Le interfacce DCE hanno il clock rate impostato a `64000`.
 
 ## Riepilogo Configurazioni
 
-### Inter-VLAN Routing (Router-on-a-Stick)
+### Inter-VLAN Routing (Sub-interfaces)
 
 Ogni router utilizza subinterface sulla porta GigabitEthernet 0/0, una per ogni VLAN:
 
