@@ -35,25 +35,6 @@ La rete è stata progettata e configurata interamente in **Cisco Packet Tracer**
 
 ## Topologia di Rete
 
-```
-                         ┌──────────────────────────────┐
-                         │          TERZO PIANO          │
-                         │  Reparti: IT (VLAN10)        │
-                         │           Admin (VLAN20)      │
-                         │         [Router F3]           │
-                         └────────────┬─────────────────┘
-                                      │ Serial DCE/DTE
-              ┌───────────────────────┴──────────────────────┐
-              │         10.10.10.0/30   |   10.10.10.4/30    │
-              │                                               │
-   ┌──────────┴──────────┐                      ┌────────────┴───────────┐
-   │    SECONDO PIANO     │   10.10.10.8/30      │       PRIMO PIANO      │
-   │  Finance  (VLAN50)  ├──────────────────────┤  Reception (VLAN80)   │
-   │  HR       (VLAN40)  │                      │  Store     (VLAN70)   │
-   │  Sales    (VLAN30)  │                      │  Logistics (VLAN60)   │
-   │  [Router F2]        │                      │  [Router F1]          │
-   └─────────────────────┘                      └───────────────────────┘
-```
 
 ![Diagramma di rete](diagrams/topology.png)
 
