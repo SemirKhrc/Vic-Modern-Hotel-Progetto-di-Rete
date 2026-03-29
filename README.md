@@ -165,36 +165,6 @@ line vty 0 15
 ![OSPF Neighbors](screenshots/ospf-neighbors.png)
 
 
-### Binding DHCP
-
-> 📸 **[INSERIRE — Output di `show ip dhcp binding` su uno dei router]**
-> ```markdown
-> ![DHCP Bindings](screenshots/dhcp-bindings.png)
-> ```
-
-### Test Accesso SSH
-
-> 📸 **[INSERIRE — Prompt del Test-PC: `ssh -l admin <ip-router>`, login riuscito]**
-> ```markdown
-> ![SSH Login Test](screenshots/ssh-login-test.png)
-> ```
-
-### Verifica Port Security
-
-> 📸 **[INSERIRE — Output di `show port-security interface fa0/2` sullo switch F3]**
-> ```markdown
-> ![Port Security](screenshots/port-security-verify.png)
-> ```
-
-### Ping Cross-VLAN e Cross-Piano
-
-> 📸 **[INSERIRE — Ping da PC del dipartimento IT verso PC del dipartimento Logistics (piani e VLAN diversi)]**
-> ```markdown
-> ![Cross-VLAN Ping](screenshots/ping-cross-vlan.png)
-> ```
-
----
-
 ## Come Aprire il Progetto
 
 1. Scarica e installa [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) (versione 8.x consigliata)
@@ -217,8 +187,6 @@ Una volta aperto il file, è possibile verificare il corretto funzionamento dell
 | Ping inter-VLAN | Apri il prompt dei comandi di un PC, esegui ping verso un dispositivo in una VLAN diversa |
 | Ping cross-piano | Ping da IT (192.168.1.x) verso Reception (192.168.8.x) |
 | Login SSH | Dal Test-PC: `ssh -l admin <ip-router>` |
-| Port security | Collega un secondo PC alla porta Fa0/2 dello switch IT — la porta deve andare in shutdown |
-| Connettività wireless | Verifica la connessione SSID di laptop e smartphone per ogni piano |
 
 ---
 
@@ -228,16 +196,6 @@ Una volta aperto il file, è possibile verificare il corretto funzionamento dell
 vic-modern-hotel-network/
 ├── vic-modern-hotel.pkt          # File del progetto Packet Tracer
 ├── README.md                     # Questo file
-└── screenshots/
-    ├── topology-overview.png
-    ├── vlan-table-f1.png
-    ├── vlan-table-f2.png
-    ├── vlan-table-f3.png
-    ├── ospf-neighbors.png
-    ├── dhcp-bindings.png
-    ├── ssh-login-test.png
-    ├── port-security-verify.png
-    └── ping-cross-vlan.png
 ```
 
 ---
