@@ -72,8 +72,7 @@ La rete è stata progettata e configurata interamente in **Cisco Packet Tracer**
 | Indirizzamento dinamico | DHCP — un pool per VLAN, configurato su ogni router |
 | Protocollo di routing | OSPFv2 (process ID 10, area 0) |
 | Rete wireless | Access Point per ogni piano (SSID dedicato) |
-| Accesso remoto | SSH v2 con chiavi RSA a 1024 bit |
-| Port security | Sticky MAC, massimo 1 dispositivo, violation: shutdown |
+| Accesso remoto | SSH v2 |
 | Dispositivi finali | PC, laptop, smartphone, tablet, stampanti |
 
 ---
