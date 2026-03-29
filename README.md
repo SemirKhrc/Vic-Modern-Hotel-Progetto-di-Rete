@@ -160,12 +160,10 @@ line vty 0 15
 ![VLAN Table F1](screenshots/Show_vlan_brief_Swithces.png)
 
 
-### Adiacenze OSPF
+### Adiacenze OSPF `show ip ospf neighbor` 
 
-> 📸 **[INSERIRE — Output di `show ip ospf neighbor` su uno dei router]**
-> ```markdown
-> ![OSPF Neighbors](screenshots/ospf-neighbors.png)
-> ```
+![OSPF Neighbors](screenshots/ospf-neighbors.png)
+
 
 ### Binding DHCP
 
