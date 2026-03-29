@@ -1,6 +1,6 @@
 # 🏨 Vic Modern Hotel — Progetto di Rete Enterprise
 
-> Simulazione di una rete enterprise multi-piano realizzata in Cisco Packet Tracer, con inter-VLAN routing, routing dinamico OSPF, DHCP centralizzato, accesso remoto SSH e port security Layer 2.
+> Simulazione di una rete enterprise multi-piano realizzata in Cisco Packet Tracer, con inter-VLAN routing, routing dinamico OSPF, DHCP centralizzato, accesso remoto SSH.
 
 ---
 
@@ -26,11 +26,10 @@ La rete è stata progettata e configurata interamente in **Cisco Packet Tracer**
 
 - Progettazione LAN gerarchica (livelli access/distribution)
 - Segmentazione tramite VLAN e trunking 802.1Q
-- Inter-VLAN routing con tecnica Router-on-a-Stick
-- Routing dinamico OSPFv2 tra router collegati con link seriali DCE/DTE
+- Inter-VLAN routing
+- Routing dinamico OSPFv2 tra router collegati con link seriali
 - Server DHCP centralizzato (un pool per VLAN, configurato sul router di piano)
-- Accesso remoto SSH v2 con autenticazione locale e chiavi RSA a 1024 bit
-- Port security Layer 2 (sticky MAC address, violation mode: shutdown)
+- Accesso remoto SSH v2
 
 ---
 
