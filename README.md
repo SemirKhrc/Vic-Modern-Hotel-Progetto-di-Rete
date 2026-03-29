@@ -153,7 +153,7 @@ line vty 0 15
 
 > 📸 **[INSERIRE — Vista completa della topologia, tutti e tre i piani visibili]**
 > ```markdown
-> ![Topologia Completa](diagrams/topology.png)
+![Diagramma di rete](diagrams/topology.png)
 > ```
 
 ### Tabella VLAN (per switch)
