@@ -151,17 +151,14 @@ line vty 0 15
 
 ### Topologia Completa
 
-> 📸 **[INSERIRE — Vista completa della topologia, tutti e tre i piani visibili]**
 > ```markdown
 ![Diagramma di rete](diagrams/topology.png)
 > ```
 
 ### Tabella VLAN (per switch)
 
-> 📸 **[INSERIRE — Output di `show vlan brief` su ciascuno switch]**
-> ```markdown
-> ![VLAN Table F1](screenshots/vlan-table-f1.png)
-> ```
+![VLAN Table F1](screenshots/Show_vlan_brief_Swithces.png)
+
 
 ### Adiacenze OSPF
 
