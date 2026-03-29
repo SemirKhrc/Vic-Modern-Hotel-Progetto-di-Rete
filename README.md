@@ -55,7 +55,7 @@ La rete è stata progettata e configurata interamente in **Cisco Packet Tracer**
    └─────────────────────┘                      └───────────────────────┘
 ```
 
-> 📸 **[INSERIRE SCREENSHOT — Vista completa della topologia da Packet Tracer]**
+![Diagramma di rete](diagrams/topology.png)
 
 ---
 
