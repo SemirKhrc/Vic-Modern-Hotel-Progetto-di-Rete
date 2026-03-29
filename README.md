@@ -161,17 +161,6 @@ line vty 0 15
  transport input ssh
 ```
 
-### Port Security (porta switch del dipartimento IT)
-
-```
-interface FastEthernet0/2
- switchport mode access
- switchport port-security
- switchport port-security maximum 1
- switchport port-security mac-address sticky
- switchport port-security violation shutdown
-```
-
 ---
 
 ## Screenshot
